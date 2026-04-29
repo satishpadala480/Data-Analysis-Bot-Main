@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f3;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 88%;
+    margin: 35px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0px 0px 18px rgba(0,0,0,0.18);
+}
+
+h1 {
+    text-align: center;
+    color: #1f2937;
+}
+
+.subtitle {
+    text-align: center;
+    color: #555;
+}
+
+.upload-box {
+    text-align: center;
+    margin: 25px 0;
+    padding: 20px;
+    background: #f9fafb;
+    border-radius: 10px;
+}
+
+.options {
+    margin: 15px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    max-width: 700px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+}
+
+button {
+    padding: 11px 25px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.card {
+    background: #f9fafb;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 12px;
+    overflow-x: auto;
+}
+
+.error {
+    background: #fee2e2;
+    color: #991b1b;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.table th, .table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background: #dbeafe;
+}
+
+.graph {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.download-box {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.download-box a {
+    background: #16a34a;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 7px;
+}
+
+@media (max-width: 700px) {
+    .options {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        width: 94%;
+        padding: 15px;
+    }
+}
